@@ -2,8 +2,8 @@
 
 var Effect : Transform;
 
-function Update () {
-	
+function Update () 
+{
 	var hit : RaycastHit;
 	var ray : Ray = Camera.main.ScreenPointToRay(Vector3(Screen.width * 0.5, Screen.height * 0.5, 0));
 	
@@ -14,5 +14,4 @@ function Update () {
 			hit.transform.SendMessage("onDestroy", SendMessageOptions.DontRequireReceiver);
 		}
 	}
-
 }
