@@ -49,8 +49,10 @@
      <Compile Include="Assets\Scripts\crosshair.js" />
      <Compile Include="Assets\Scripts\destroy.js" />
      <Compile Include="Assets\Scripts\enemyAI.js" />
+     <Compile Include="Assets\Scripts\enemyAttack.js" />
      <Compile Include="Assets\Scripts\mirror.js" />
      <Compile Include="Assets\Scripts\raycast.js" />
+     <Compile Include="Assets\Scripts\wallTouch.js" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
